@@ -1,0 +1,128 @@
+header
+    {
+    
+    color: black;
+    background-color: rgb(73, 151, 73);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:  60px 30px;
+    text-align: left; 
+    margin: 20px 160px 20px 160px;
+    border-radius: 10px;
+}
+
+header h1 {font-size: 4rem;
+    font-weight: bolder;}
+   
+ @media (max-width: 600px){
+    header h1{font-size: 1rem;}
+    header{padding: 50px 30px;}
+    }
+
+body  {
+    font-size: 15px;
+    text-align: left;     
+}
+
+.submit:hover{color:rgb(73, 151, 73);}
+
+.container{display: flex;
+           flex-grow: 1;
+           max-width: 100%;
+           margin-left: 160px;
+}
+
+
+.green::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    margin-right: 10px;
+  }
+  
+.table{
+       table-layout: fixed; 
+       margin: 10px 160px 10px 160px;
+}
+
+.table th,
+.table td {
+  border: 1px solid black;
+  font-size: 15px;
+}
+
+.table tr th{
+    background-color:rgb(135, 131, 131);
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+
+}
+.table tr td{background-color: white;
+            padding: 20px 20px 20px 20px;
+            text-align: left;
+}
+
+.block{
+       display: grid;
+       width: 800px;
+       height: 250px;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+       margin: 20px 160px 3px 160px;
+       gap: 5px 10px;
+       
+}
+
+
+.smallblock1{
+
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.smallblock2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+.smallblock3{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.smallblock4{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.smallblock5{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.smallblock6{
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+
+.smallblock7{
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.smallblock8{
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+
+.block2{
+    display: grid;
+    width: 800px;
+    height: 150px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    margin: 20px 160px 3px 160px;
+    gap: 5px 10px;
+    
+}
