@@ -14,10 +14,7 @@ header
 header h1 {font-size: 4rem;
     font-weight: bolder;}
    
- @media (max-width: 600px){
-    header h1{font-size: 1rem;}
-    header{padding: 50px 30px;}
-    }
+ 
 
 body  {
     font-size: 15px;
