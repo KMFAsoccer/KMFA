@@ -155,8 +155,7 @@ body  {
                         height: 200px;}
                .container {flex-direction: column;
                            margin: 20px 20px 20px 20px;}
-               .container iframe {width: 385px;
-                                  height: 385px;
+               .container iframe {
                                   margin-top: 20px;
             }
 }
