@@ -1,15 +1,14 @@
-header
-    {
-    
-    color: black;
+header {color: black;
     background-color: rgb(73, 151, 73);
     background-repeat: no-repeat;
     background-size: cover;
     padding:  60px 30px;
     text-align: left; 
-    margin: 20px 160px 20px 160px;
-    border-radius: 10px;
-}
+    
+    border-radius: 10px;}
+    
+    
+
 
 header h1 {font-size: 4rem;
     font-weight: bolder;}
@@ -19,7 +18,30 @@ header h1 {font-size: 4rem;
 body  {
     font-size: 15px;
     text-align: left;     
+    
 }
+
+.label1 {border-radius: 5px;
+    color: white;
+    background: rgb(73, 151, 73);
+    border: rgb(73, 151, 73) solid 2px}
+
+
+.label2 {border-radius: 5px;
+    border: rgb(73, 151, 73)  solid 1px;
+    border-left: rgb(73, 151, 73) solid 8px;
+    background-color: white;}
+
+.label3 {font-size: 100%;
+    padding: 10px;}
+
+
+.labeloligin1 {margin: 20px 160px 20px 160px;}
+.labeloligin2 {margin: 20px 160px 20px 160px; }
+
+
+
+
 
 .submit:hover{color:rgb(73, 151, 73);}
 
@@ -41,7 +63,7 @@ body  {
   
 .table{
        table-layout: fixed; 
-       margin: 10px 160px 10px 160px;
+       
 }
 
 .table th,
@@ -67,7 +89,7 @@ body  {
        height: 250px;
        grid-template-columns: 1fr 1fr;
        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-       margin: 20px 160px 3px 160px;
+       
        gap: 5px 10px;
        
 }
@@ -119,7 +141,22 @@ body  {
     height: 150px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr ;
-    margin: 20px 160px 3px 160px;
+    
     gap: 5px 10px;
     
+}
+@media screen and (max-width: 800px){
+               .label3 {font-size: 1em}
+               .labeloligin1 {margin: 20px 20px 20px 20px;}
+               .labeloligin2 {margin: 20px 20px 20px 20px;}
+               .block {width: 500px;
+                       height: 300px;}
+               .block2 {width: 400px;
+                        height: 200px;}
+               .container {flex-direction: column;
+                           margin: 20px 20px 20px 20px;}
+               .container iframe {width: 385px;
+                                  height: 385px;
+                                  margin-top: 20px;
+            }
 }
