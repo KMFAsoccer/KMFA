@@ -145,6 +145,14 @@ body  {
     gap: 5px 10px;
     
 }
+
+footer p {color: black;
+    background-color: rgb(73, 151, 73);
+    background-size: cover;
+    padding:  30px 15px;
+    text-align: center; 
+    border-radius: 10px; }
+
 @media screen and (max-width: 800px){
                .label3 {font-size: 1em}
                .labeloligin1 {margin: 20px 20px 20px 20px;}
