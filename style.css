@@ -145,7 +145,8 @@ body  {
     gap: 5px 10px;
     
 }
-
+.shiaischedule{width: 890px; height: 450px; margin-left: 160px; ;
+}
 footer p {color: black;
     background-color: rgb(73, 151, 73);
     background-size: cover;
@@ -164,6 +165,7 @@ footer p {color: black;
                .container {flex-direction: column;
                            margin: 20px 20px 20px 20px;}
                .container iframe {
-                                  margin-top: 20px;
-            }
+                                  margin-top: 20px; }
+               .shiaischedule{ width: 90%; height: auto; margin-left: 20px; margin-right: 160px;
+                            }
 }
