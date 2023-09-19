@@ -154,7 +154,7 @@ footer p {color: black;
     text-align: center; 
     border-radius: 10px; }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1000px){
                .label3 {font-size: 1em}
                .labeloligin1 {margin: 20px 20px 20px 20px;}
                .labeloligin2 {margin: 20px 20px 20px 20px;}
